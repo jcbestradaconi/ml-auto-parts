@@ -24,7 +24,7 @@ Your site will be live at: `https://<your-username>.github.io/ml-auto-parts/`
 
 ## After setup
 - Paste the live URL into the [WEBSITE URL] spots in "Outreach Emails V1.md".
-- Submit the contact form once yourself — FormSubmit emails jcbestradaconi@gmail.com a one-click activation link on first use. Click it or leads won't arrive.
+- Submit the contact form once yourself — Formspree emails jcbestradaconi@gmail.com a one-click confirmation link on first use. Click it or leads won't arrive.
 - Photos: shoot each SKU at storage, drop into `images/` with the exact filenames listed in CLAUDE.md. Commit + push and they appear automatically.
 
 ## Day-to-day with Claude Code

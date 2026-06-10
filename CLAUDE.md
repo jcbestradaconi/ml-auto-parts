@@ -8,7 +8,7 @@ Single-page static catalog site (index.html) for liquidating Mark Levine's auto 
 2. **Pricing is locked to the master sheet** ("ML Auto Parts - Pricing & Inventory V2.xlsx" in the parent project folder): retail ≈ 15% under market comps; 50+ units = 40% off retail; full-SKU lot = 50% off retail. If pricing changes, change the spreadsheet first, then mirror here.
 3. **No stock photos from retailers** (copyright + buyer trust). Product cards show SVG category icons until real photos exist. To add real photos: drop JPGs into `images/` named exactly: f536e.jpg, sw-ds96-5.jpg, sw-ds97-5.jpg, sw-ds97.jpg, sw-hs99.jpg, s-f172.jpg, sw-ds96.jpg, s-a905161b.jpg, pu-lx309.jpg, tps198.jpg, b9004.jpg. The cards pick them up automatically (img with onerror fallback to icon).
 4. **Single file.** Keep all CSS/JS inline in index.html. No build step, no frameworks.
-5. Contact form posts via formsubmit.co to jcbestradaconi@gmail.com. The FIRST form submission triggers a confirmation email to JC — he must click it once to activate.
+5. Contact form posts via Formspree (form ID mbdekvow) to jcbestradaconi@gmail.com. The FIRST form submission triggers a confirmation email to JC — he must click it once to activate. Spam filtering / captcha are managed in the Formspree dashboard, not in the form markup.
 
 ## Deploy
 GitHub Pages serves from main branch root. To ship any change:
